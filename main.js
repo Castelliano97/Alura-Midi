@@ -33,6 +33,7 @@ for (i=0; i<=listaDeTeclas.length; i++){
         // tecla.classList.remove('ativa'); esse foi o jeito que eu fiz sozinho 
         }
     }
+    
     tecla.onkeyup = function (){
         tecla.classList.remove('ativa');
     }
